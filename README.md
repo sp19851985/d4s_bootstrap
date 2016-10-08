@@ -1,41 +1,39 @@
-How to activate this theme:
+#d4s_bootstrap theme requirement
 
-##d4s_bootstrap theme requirement##
+##Modules and dependency modules
+### [Nivo slider](https://www.drupal.org/project/nivo_slider)
+- Install [Libraries API](https://www.drupal.org/project/libraries)
+- Install [jQuery Update](https://www.drupal.org/project/jquery_update) - configured to use jQuery 1.7 or higher.
+- Copy [Nivo Slider jQuery plugin](https://github.com/gilbitron/Nivo-Slider) to sites/all/libraries/nivo-slider
+###[Quick Tabs](https://www.drupal.org/project/quicktabs)
+###[Bootstrap Quicktabs](https://www.drupal.org/project/bootstrap_quicktabs)
+###[Owl Carousel](https://www.drupal.org/search/site/Owl%20Carousel)
+- Copy [Owl Carousel library](http://www.owlcarousel.owlgraphic.com/download/owl.carousel.zip) to sites/all/libraries/owlcarousel
+###[Font Awesome](https://www.drupal.org/project/fontawesome)
+- Copy [Font Awesome](https://github.com/FortAwesome/Font-Awesome) to sites/all/libraries/fontawesome
 
-Modules and dependency modules
-1.	Nivo slider
-    	Install Libraries API - 2.x
-    	Install jQuery Update - configured to use jQuery 1.7 or higher.
-    	Copy Nivo Slider jQuery plugin to sites/all/libraries/nivo-slider
-2.	Quick Tabs
-3.	Bootstrap Quicktabs
-4.	Owl Carousel
-    	Copy Owl Carousel library to sites/all/libraries/owlcarousel
-5.	Font Awesome
-    	Copy Font Awesome to sites/all/libraries/fontawesome
-
-Should be enabled modules
-1.	“Nivo Slider”
-2.	“jQuery Update”
-3.	“Libraries”
-4.	“Quicktabs”
-5.	“Quicktabs Styles”
-6.	“Owl Carousel”
-7.	“Owl Carousel Fields”
-8.	“Owl Carousel UI”
-9.	“Owl Carousel Views”
-10.	“Views”
-11.	“Views Bootstrap”
-12.	“Views UI”
-13.	“Variables
-14.	“Font Awesome”
-15.	“System”
-16.	“Chaos tools”
-17.	“Calendar”
-18.	“Date”
-19.	“Date API”
-20.	“Date Popup”
-21.	“Date Views”
+##Should be enabled modules
+- Nivo Slider
+- jQuery Update
+- Libraries
+- Quicktabs
+- Quicktabs Styles
+- Owl Carousel
+- Owl Carousel Fields
+- Owl Carousel UI
+- Owl Carousel Views
+- Views
+- Views Bootstrap
+- Views UI
+- Variables
+- Font Awesome
+- System
+- Chaos tools
+- Calendar
+- Date
+- Date API
+- Date Popup
+- Date Views
 
 
 <!-- @file Instructions on how to sub-theme the Drupal Bootstrap base theme using the CDN Starterkit. -->
