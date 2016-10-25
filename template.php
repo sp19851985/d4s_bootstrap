@@ -7,14 +7,14 @@
 /**
  * Override or insert variables into the html template.
  */
-function d4s_bootstrap_process_html(&$vars) {
-    $vars['page_top'] = d4s_bootstrap_for_taiwan($vars['page_top']);
-    $vars['page_bottom'] = d4s_bootstrap_for_taiwan($vars['page_bottom']);
-    $vars['page'] = d4s_bootstrap_for_taiwan($vars['page']);
+function bootstrap_d4s_wonderland_process_html(&$vars) {
+    $vars['page_top'] = bootstrap_d4s_wonderland($vars['page_top']);
+    $vars['page_bottom'] = bootstrap_d4s_wonderland($vars['page_bottom']);
+    $vars['page'] = bootstrap_d4s_wonderland($vars['page']);
 }
 
 $tab_index = 1;
-function d4s_bootstrap_for_taiwan($content) {
+function bootstrap_d4s_wonderland($content) {
     global $tab_index;
     $dom = new DOMDocument;
     libxml_use_internal_errors(true);
